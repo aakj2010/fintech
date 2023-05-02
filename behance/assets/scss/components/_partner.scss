@@ -1,0 +1,27 @@
+.partner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: $primary-color;
+  &__top {
+    display: flex;
+    flex-direction: column;
+    p {
+      padding: 0;
+      margin: 0;
+    }
+    &__logo-container {
+      ul {
+        padding: 0;
+        li {
+          display: inline;
+          padding: 0 2rem;
+          img {
+            width: 8rem;
+            height: 4rem;
+          }
+        }
+      }
+    }
+  }
+}
