@@ -70,7 +70,7 @@
 			// margin-bottom: 4rem;
 			&__wealth-title {
 				font-size: 2rem;
-				line-height: 100%;
+				line-height: 130%;
 				margin-bottom: 1rem;
 			}
 			&__para {
@@ -87,16 +87,11 @@
 			&__data {
 				max-width: 300px;
 				&__card {
-					margin-bottom: 3rem;
+					margin-bottom: 4rem;
 				}
 			}
 			&__img {
 				display: none;
-				// margin: 0;
-				// width: 150px;
-				// display: flex;
-				// align-items: flex-start;
-				// justify-content: center;
 			}
 		}
 	}

@@ -1,110 +1,111 @@
 .choose {
-	margin: 4rem 0 8rem 0;
-	display: flex;
-	flex-direction: column;
-	align-items: start;
-	&__title-container {
-		.choose-title {
-			font-size: 4rem;
-			line-height: 100%;
-			font-weight: $font-semi-bold;
-			margin-bottom: 4rem;
-		}
-	}
-	&__card-container {
-		display: flex;
-		align-items: flex-start;
-		gap: 1rem;
-		.choose-card {
-			position: relative;
-			margin: 0;
-			padding: 2rem;
-			width: 390px;
-			height: 390px;
-			display: flex;
-			flex-direction: column;
-			justify-content: space-between;
-			border-radius: 1.5rem;
-			font-weight: 500;
-			img {
-				width: 140px;
-				position: absolute;
-				top: 10%;
-				right: 10%;
-			}
-		}
-		.second {
-			background-color: $second-color;
-			p {
-				color: $dark-color;
-				opacity: 0.4;
-			}
-			h2 {
-				font-size: 2rem;
-				max-width: 200px;
-				text-wrap: wrap;
-				line-height: 125%;
-			}
-		}
-		.third {
-			background-color: $third-color;
-			p {
-				color: $dark-color;
-				opacity: 0.4;
-			}
-			h2 {
-				font-size: 2rem;
-				max-width: 200px;
-				text-wrap: wrap;
-				line-height: 125%;
-			}
-		}
-		.four {
-			background-color: $fourth-color;
-			p {
-				color: $dark-color;
-				opacity: 0.4;
-			}
-			h2 {
-				font-size: 2rem;
-				max-width: 200px;
-				text-wrap: wrap;
-				line-height: 125%;
-			}
-		}
-	}
+  margin: 4rem 0 8rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  &__title-container {
+    .choose-title {
+      font-size: 4rem;
+      line-height: 100%;
+      font-weight: $font-semi-bold;
+      margin-bottom: 4rem;
+    }
+  }
+  &__card-container {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+    .choose-card {
+      position: relative;
+      margin: 0;
+      padding: 2rem;
+      width: 390px;
+      height: 390px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      border-radius: 1.5rem;
+      font-weight: 500;
+      img {
+        width: 140px;
+        position: absolute;
+        top: 10%;
+        right: 10%;
+      }
+    }
+    .second {
+      background-color: $second-color;
+      p {
+        color: $dark-color;
+        opacity: 0.4;
+      }
+      h2 {
+        font-size: 2rem;
+        max-width: 200px;
+        text-wrap: wrap;
+        line-height: 125%;
+      }
+    }
+    .third {
+      background-color: $third-color;
+      p {
+        color: $dark-color;
+        opacity: 0.4;
+      }
+      h2 {
+        font-size: 2rem;
+        max-width: 200px;
+        text-wrap: wrap;
+        line-height: 125%;
+      }
+    }
+    .four {
+      background-color: $fourth-color;
+      p {
+        color: $dark-color;
+        opacity: 0.4;
+      }
+      h2 {
+        font-size: 2rem;
+        max-width: 200px;
+        text-wrap: wrap;
+        line-height: 125%;
+      }
+    }
+  }
 }
 
-@media all and (max-width: 768px) {
-	.choose {
-		margin: 0;
-		margin-bottom: 4rem;
-		&__title-container {	
-			.choose-title {
-				font-size: 2rem;
-				line-height: 100%;
-				font-weight: $font-semi-bold;
-				margin-bottom: 2rem;
-			}
-		}
-		&__card-container {
-			display: flex;
-			flex-wrap: wrap;
-			flex-direction: column;
-			margin-bottom: 0.1rem !important;
-			.choose-card {
-				width: 21.5rem;
-				height: 20rem;
-				img {
-					width: 100px;
-					position: absolute;
-					top: 20%;
-					right: 10%;
-				}
-				h2 {
-					font-size: 1.5rem;
-				}
-			}
-		}
-	}
+@media screen and (max-width: 480px) {
+  .choose {
+    margin: 0;
+    margin-bottom: 4rem;
+    &__title-container {
+      .choose-title {
+        font-size: 2rem;
+        line-height: 130%;
+        font-weight: $font-semi-bold;
+        margin-bottom: 2rem;
+      }
+    }
+    &__card-container {
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      margin-bottom: 0.1rem !important;
+      .choose-card {
+        width: 100%;
+        height: 20rem;
+        img {
+          width: 100px;
+          position: absolute;
+          top: 20%;
+          right: 10%;
+        }
+        h2 {
+          font-size: 1.5rem;
+        }
+      }
+    }
+  }
 }

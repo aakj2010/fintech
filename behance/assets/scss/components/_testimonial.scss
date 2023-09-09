@@ -196,14 +196,14 @@
 	}
 }
 
-@media all and (max-width: 768px) {
+@media all and (max-width: 480px) {
 	.testimonial {
 		margin: 0;
 		margin-bottom: 3rem;
 		&__title-container {
 			&__title {
 				font-size: 2rem;
-				line-height: 100%;
+				line-height: 130%;
 				margin-bottom: 2rem;
 			}
 		}
